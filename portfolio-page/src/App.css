@@ -1,0 +1,29 @@
+.App{
+    background-image: url("https://www.wallpaperflare.com/static/446/913/257/background-sky-point-light-wallpaper.jpg");
+}
+hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #ff6b6b, #6a0572);
+    width: 70%;
+ }
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #f5f5f5;
+ }
+ 
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #EAEAEA;
+}
+ 
+h1:hover {
+    color: #ff6b6b;
+    transition: 0.3s ease;
+ }
+
+
+
+

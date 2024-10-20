@@ -1,0 +1,58 @@
+.introduction {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .introduction img {
+    width: 350px;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .introduction img:hover{
+    width: 400px;
+    pointer-events: fill;
+  }
+  .introduction h2 {
+    font-size: 2em;
+    margin-top: 90px;
+    margin-left: 180px;
+    color: white;
+    animation-name: titleAnimation;
+    animation-timing-function: ease;
+    animation-duration: 20s;
+  }
+  
+  .introduction p {
+    font-size: 1.2em;
+    color: white;
+    margin: 30px;
+    text-align: center;
+    animation-name: titleAnimation;
+    animation-timing-function: ease;
+    animation-duration: 20s;
+  }
+
+  @keyframes titleAnimation {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+  }
+  20% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+  80% {
+       transform: translateY(0);
+       opacity: 1;
+  }
+  100% {
+       transform: translateY(50px);
+       opacity: 0;
+    
+  }
+}
+h2:hover{
+  color: #ff6b6b;
+  transition: 0.3s ease;
+}

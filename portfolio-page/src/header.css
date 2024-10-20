@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url("https://www.wallpaperflare.com/static/446/913/257/background-sky-point-light-wallpaper.jpg");
+    color: white;
+  }
+  
+  .header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .header nav a:hover {
+      color: #ff6b6b;
+      transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
